@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a2a6c;
+  background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+  background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+}
+
+.add {
+  background-color: #feac5e;
+  background: -webkit-linear-gradient(to right, #4bc0c8, #c779d0, #feac5e);
+  background: linear-gradient(to right, #4bc0c8, #c779d0, #feac5e);
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.note {
+  background-color: #fff;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  height: 400px;
+  width: 400px;
+}
+
+.note .tools {
+  background-color: khaki;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.note .tools button {
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.note .main {
+  background-color: #fff;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.note textarea {
+  height: 400px;
+  width: 100%;
+  border: none;
+  font-family: inherit;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.note .hidden {
+  display: none;
+}
